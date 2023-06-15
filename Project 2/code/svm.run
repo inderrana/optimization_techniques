@@ -1,0 +1,11 @@
+reset;
+
+model group_project\svm.mod;
+
+solve;
+
+display x > group_project\X.txt;
+display y > group_project\Y.txt;
+display z > group_project\Z.txt;
+display w > group_project\W.txt;
+display g > group_project\G.txt;
